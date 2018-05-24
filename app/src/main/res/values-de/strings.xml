@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="order_summary_name">Name: (John )</string>
+    <string name="order_summary_add_whipped_cream">Mit Schlagsahne? %1$b</string>
+    <string name="order_summary_add_chocolate">Mit Schokolade? %1$b</string>
+    <string name="order_summary_quantity">Menge: %1$d</string>
+    <string name="order_summary_total">Gesamt: %1$s</string>
+    <string name="order_summary_thank_you">Vielen Dank</string>
+</resources>
