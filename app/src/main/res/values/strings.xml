@@ -8,7 +8,9 @@
     <string name="order">order</string>
     <string name="order_summary">order summary</string>
 
-    <string name="order_summary_name">Name: <xliff:g name="name" example="John">%s</xliff:g></string>
+    <string name="quantity_text">%1$d</string>
+
+    <string name="order_summary_name">Name: <xliff:g name="name" example="John">%s</xliff:g> </string>
     <string name="order_summary_add_whipped_cream">Has Whipped Cream? %1$b</string>
     <string name="order_summary_add_chocolate">Has Chocolate? %1$b</string>
     <string name="order_summary_quantity">Quantity: %1$d</string>

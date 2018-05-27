@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
     public void increment(View view) {
         if (quantity > 9) {
             Toast.makeText(this, "You can't have more than 100 cups.", Toast.LENGTH_SHORT).show();
-            return;
         } else {
             displayQuantity(++quantity);
         }
@@ -46,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     public void decrement(View view) {
         if (quantity < 2) {
             Toast.makeText(this, "You can't have less than 1 cup.", Toast.LENGTH_SHORT).show();
-            return;
         } else {
             displayQuantity(--quantity);
         }
@@ -104,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
      * This method displays the given quantity value on the screen.
      */
     private void displayQuantity(int number) {
-        TextView quantityTextView = (TextView) findViewById(R.id.quantity_text_view);
-        quantityTextView.setText("" + number);
+        TextView quantityTextView = findViewById(R.id.quantity_text_view);
+        quantityTextView.setText(getString(R.string.quantity_text, number));
     }
 }

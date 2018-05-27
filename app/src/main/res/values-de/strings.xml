@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="order_summary_name">Name: (John )</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="order_summary_name">Name: <xliff:g name="name" example="John">%s</xliff:g> </string>
     <string name="order_summary_add_whipped_cream">Mit Schlagsahne? %1$b</string>
     <string name="order_summary_add_chocolate">Mit Schokolade? %1$b</string>
     <string name="order_summary_quantity">Menge: %1$d</string>

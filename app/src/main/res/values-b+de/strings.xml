@@ -7,5 +7,7 @@
     <string name="quantity">menge</string>
     <string name="order">Auftrag</string>
     <string name="order_summary">bestellübersicht</string>
+
+    <string name="quantity_text">%1$d</string>
 </resources>
 

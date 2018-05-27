@@ -17,6 +17,7 @@
             android:orientation="vertical">
 
             <EditText
+                android:inputType="text"
                 android:id="@+id/customer_name_text_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +81,7 @@
                         android:layout_marginRight="8dp"
                         android:text="2"
                         android:textColor="@android:color/black"
-                        android:textSize="16dp" />
+                        android:textSize="16sp" />
 
                     <Button
                         android:layout_width="48dp"
